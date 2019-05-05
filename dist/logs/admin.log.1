@@ -1,0 +1,31 @@
+[2019-05-05T13:56:43.529] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\Item\\demo-server\\dist\\app.js","env":"development","id":"hall-server-1","host":"127.0.0.1","port":3170,"args":" --inspect=10004","serverType":"hall","remoterPaths":[{"namespace":"sys","serverType":"hall","path":"E:\\Item\\demo-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"hall","path":"E:\\Item\\demo-server\\dist\\app\\servers\\hall\\remote"}],"handlerPaths":["E:\\Item\\demo-server\\dist\\app\\servers\\hall\\handler"],"pid":14528}}
+[2019-05-05T13:56:43.587] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\Item\\demo-server\\dist\\app.js","env":"development","id":"teahouse-server-1","host":"127.0.0.1","port":3180,"args":" --inspect=10005","serverType":"teahouse","remoterPaths":[{"namespace":"sys","serverType":"teahouse","path":"E:\\Item\\demo-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"}],"handlerPaths":[],"pid":14840}}
+[2019-05-05T13:56:43.620] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\Item\\demo-server\\dist\\app.js","env":"development","id":"game-server-1","host":"127.0.0.1","port":3190,"args":" --inspect=10006","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"E:\\Item\\demo-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"}],"handlerPaths":[],"pid":13432}}
+[2019-05-05T13:56:43.642] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.create
+connector.entryHandler.entry
+connector.entryHandler.join
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+gate.gateHandler.queryEntry
+login.loginHandler.login
+login.loginHanler.login
+[2019-05-05T13:56:52.617] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] getSession session is created with session id: 1
+[2019-05-05T13:56:52.635] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 2, route: login.loginHandler.login, msg: {"name":"Lich1","id":1,"headImg":"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIdYiaomspZJpLf6OUX74ib5fT0wibcVTQiab7nQtLOdyyObzUsCl0969Y4SHLp6YDOj0yFUsBKMVVyMw/132","sex":1,"diamond":12}, receivers: [1], opts: {"type":"response"}
+[2019-05-05T13:56:57.367] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 3, route: connector.entryHandler.join, msg: {"code":500,"msg":"房间不存在"}, receivers: [1], opts: {"type":"response"}
+[2019-05-05T13:59:35.372] [DEBUG] pinus - [connector-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 52551
+[2019-05-05T13:59:35.373] [DEBUG] pinus - [connector-server-1 sessionService.js] session on [connector-server-1] is closed with session id: 1,uid:null,reason:{}
+[2019-05-05T13:59:39.875] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] getSession session is created with session id: 2
+[2019-05-05T13:59:39.883] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 2, route: login.loginHandler.login, msg: {"name":"Lich2","id":2,"headImg":"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIdYiaomspZJpLf6OUX74ib5fT0wibcVTQiab7nQtLOdyyObzUsCl0969Y4SHLp6YDOj0yFUsBKMVVyMw/132","sex":1,"diamond":12}, receivers: [2], opts: {"type":"response"}
+[2019-05-05T13:59:45.288] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 3, route: connector.entryHandler.join, msg: {"code":500,"msg":"房间不存在"}, receivers: [2], opts: {"type":"response"}
+[2019-05-05T14:01:31.483] [DEBUG] pinus - [connector-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 52995
+[2019-05-05T14:01:31.484] [DEBUG] pinus - [connector-server-1 sessionService.js] session on [connector-server-1] is closed with session id: 2,uid:null,reason:{}
+[2019-05-05T14:01:35.451] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] getSession session is created with session id: 3
+[2019-05-05T14:01:35.457] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 2, route: login.loginHandler.login, msg: {"name":"Lich3","id":3,"headImg":"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIdYiaomspZJpLf6OUX74ib5fT0wibcVTQiab7nQtLOdyyObzUsCl0969Y4SHLp6YDOj0yFUsBKMVVyMw/132","sex":1,"diamond":12}, receivers: [3], opts: {"type":"response"}
+[2019-05-05T14:01:40.103] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 3, route: connector.entryHandler.join, msg: {"code":500,"msg":"房间不存在"}, receivers: [3], opts: {"type":"response"}
+[2019-05-05T14:03:19.964] [DEBUG] pinus - [connector-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 53376
+[2019-05-05T14:03:19.965] [DEBUG] pinus - [connector-server-1 sessionService.js] session on [connector-server-1] is closed with session id: 3,uid:null,reason:{}
+[2019-05-05T14:03:25.793] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] getSession session is created with session id: 4
+[2019-05-05T14:03:25.801] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 2, route: login.loginHandler.login, msg: {"name":"Lich4","id":4,"headImg":"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIdYiaomspZJpLf6OUX74ib5fT0wibcVTQiab7nQtLOdyyObzUsCl0969Y4SHLp6YDOj0yFUsBKMVVyMw/132","sex":1,"diamond":12}, receivers: [4], opts: {"type":"response"}
+[2019-05-05T14:03:29.783] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 3, route: connector.entryHandler.join, msg: {"code":500,"msg":"房间不存在"}, receivers: [4], opts: {"type":"response"}
+[2019-05-05T14:03:32.991] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 4, route: connector.entryHandler.join, msg: {"code":500,"msg":"房间不存在"}, receivers: [4], opts: {"type":"response"}

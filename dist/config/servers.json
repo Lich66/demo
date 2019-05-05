@@ -1,0 +1,44 @@
+{
+  "development":{
+   
+    "connector": [
+    {"id": "connector-server-1", "host": "127.0.0.1", "port": 3150, "clientHost": "127.0.0.1", "clientPort": 3010, "frontend": true , "args" : " --inspect=10001"}
+    ],
+    "gate": [
+      {"id": "gate-server-1", "host": "127.0.0.1", "clientPort": 3140, "frontend": true , "args" : " --inspect=10002"}
+    ],
+    "login": [
+      {"id": "login-server-1", "host": "127.0.0.1", "port": 3160, "args" : " --inspect=10003"}
+    ],
+    "hall": [
+      {"id": "hall-server-1", "host": "127.0.0.1", "port": 3170, "args" : " --inspect=10004"}
+    ],
+    "teahouse": [
+      {"id": "teahouse-server-1", "host": "127.0.0.1", "port": 3180, "args" : " --inspect=10005"}
+    ],
+    "game": [
+      {"id": "game-server-1", "host": "127.0.0.1", "port": 3190, "args" : " --inspect=10006"}
+    ]
+  },
+  "production":{
+   
+    "connector": [
+    {"id": "connector-server-1", "host": "127.0.0.1", "port": 3150, "clientHost": "127.0.0.1", "clientPort": 3010, "frontend": true , "args" : " --inspect=10002"}
+    ],
+    "gate": [
+      {"id": "gate-server-1", "host": "127.0.0.1", "clientPort": 3140, "frontend": true , "args" : " --inspect=10001"}
+    ],
+    "login": [
+      {"id": "login-server-1", "host": "127.0.0.1", "port": 3160, "args" : " --inspect=10003"}
+    ],
+    "hall": [
+      {"id": "hall-server-1", "host": "127.0.0.1", "port": 3170, "args" : " --inspect=10004"}
+    ],
+    "teahouse": [
+      {"id": "teahouse-server-1", "host": "127.0.0.1", "port": 3180, "args" : " --inspect=10005"}
+    ],
+    "game": [
+      {"id": "game-server-1", "host": "127.0.0.1", "port": 3190, "args" : " --inspect=10006"}
+    ]
+  }
+}
