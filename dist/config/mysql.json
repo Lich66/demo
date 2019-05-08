@@ -1,0 +1,20 @@
+{
+    "development": {
+        "dialect": "mysql",
+        "connectionLimit": 10,
+        "host": "localhost",
+        "port": "3306",
+        "database": "testdemo",
+        "username": "root",
+        "password": "lich0510"
+    },
+    "production": {
+        "dialect": "mysql",
+        "connectionLimit": 10,
+        "host": "localhost",
+        "port": "3306",
+        "database": "testdemo",
+        "username": "root",
+        "password": "lich0510"
+    }
+}
